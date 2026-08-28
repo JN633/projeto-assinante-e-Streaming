@@ -16,4 +16,7 @@ class Assinante:
     def _gerar_hash(senha):
         return hashlib.sha256(senha.encode()).hexdigest
 
+    def exibir_dados(self):
+        return f"Seu Id: {self.id}\nSeu Nome: {self.nome}\nSeu Plano: {self.plano}\nSua Senha: {self.senha_hash}"
+
     
