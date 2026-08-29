@@ -14,7 +14,7 @@ class PlataformaStreaming:
         }
 
 
-        nome = input("Informe o nome do assinante: ")
+        nome = input("\tInforme o nome do assinante: ")
 
         print("Selecione o plano: [1] Basico | [2] Padrão | [3] Premium")
 
